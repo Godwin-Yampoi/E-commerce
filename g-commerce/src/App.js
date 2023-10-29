@@ -1,4 +1,4 @@
-import { Shop } from '@mui/icons-material';
+import  Shop  from './Pages/Shop';
 import Navbar from './Components/Navbar';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import ShopCategory from './Pages/ShopCategory';
