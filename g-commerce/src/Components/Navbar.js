@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
-import LocalMallIcon from '@mui/icons-material/LocalMall';
+import logo from './Assets/logo.png';
+
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom';
-import { NoEncryption } from '@mui/icons-material';
 
 
 const Navbar = () => {
@@ -12,8 +12,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='nav-logo'>
-            <LocalMallIcon />
-            <p>G-Commerce</p>
+          <img src={logo} alt='logo'></img>
 
         </div>
 
