@@ -7,6 +7,10 @@
   justify-content: space-around;
   padding: 1px;
   box-shadow: 0 1px 3px -2px black;
+  color: white;
+  width: 100%;
+  height: 2cm;
+  align-items: center;
 
 }
 
@@ -17,6 +21,10 @@
   border-radius: 50%; /* Make the logo circular */
   display: block; /* Remove extra space below the image */
   margin: 0 auto; 
+  margin-top: 4px;
+  transform: scale(0.5);
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .navbar p {
@@ -42,8 +50,13 @@
   align-items: center;
   justify-content: center;
   gap: 3px;
+  color: white;
   cursor: pointer;
 
+}
+
+.nav-menu li Link{
+  color: #c9c9c9;
 }
 
 .nav-menu hr{
@@ -164,4 +177,81 @@
 .Hero-right img{
   margin-right: 240px;
   border-radius: 400px;
+}
+
+.login-signup{
+  margin: 0;
+  padding: 0;
+  background: #fce3fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.signup-container{
+  width: 400px;
+  height: 600px;
+  background: white;
+  padding: 40px 60px;
+  transform: scale(0.9);
+  align-items: center;
+} 
+
+.signup-container h1{
+  margin: 20px 0px;
+}
+
+.Signup-fields{
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-top: 30px;
+}
+
+.Signup-fields input{
+  height: 72px;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid #c9c9c9;
+  outline: none;
+  color: black;
+  font-size: 18px;
+}
+
+.signup-container button{
+  width: 400px;
+  height: 72px;
+  color: white;
+  background: #ff4141;
+  margin-top: 5%;
+  border: none;
+  border-radius: 75px;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login{
+  margin-top: 20px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.login span{
+  color: #ff4141;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loginsignup-agree{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 7px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
+
 }
