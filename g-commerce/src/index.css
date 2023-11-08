@@ -182,7 +182,7 @@
 .login-signup{
   margin: 0;
   padding: 0;
-  background: #fce3fe;
+  background: #b614c2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,7 +191,7 @@
 
 .signup-container{
   width: 400px;
-  height: 600px;
+  height: 800px;
   background: white;
   padding: 40px 60px;
   transform: scale(0.9);
@@ -232,6 +232,9 @@
   cursor: pointer;
 }
 
+.signup-container button:active{
+  background: blue;
+}
 .login{
   margin-top: 20px;
   color: #5c5c5c;
@@ -243,6 +246,9 @@
   color: #ff4141;
   font-weight: 600;
   cursor: pointer;
+}
+.login span:active{
+  text-decoration: underline;
 }
 
 .loginsignup-agree{
